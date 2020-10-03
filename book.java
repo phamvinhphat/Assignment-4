@@ -46,7 +46,7 @@ public class book {
 	
 	public boolean returned(String a) { 
 			if(getTitle().equalsIgnoreCase("!!! book been borrowed !!!") == true) {
-				title = title_2;
+				title = a;
 				return true;
 			} 
 			return false;
